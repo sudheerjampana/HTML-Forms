@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0z">
+    <title>TGSRTC Form </title><br><br>
+    <img src="./tsrtc.jpg" width="50" height="50">
+    <h2>TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+    <h2>GENERAL BUSS PASS APPLICATION</h2>
+    <style>
+        fieldset{
+            width: 650px;
+            height: 200px;
+            text-align: left;
+            padding: 20px;
+        }
+        h2{
+            color: rgb(7, 134, 246);
+            background: fixed;
+            background-color: rgb(209, 228, 244);
+        }
+    </style>
+    
+</head>
+<body>
+    <form action="./rtc.html" >
+        <!-- Applicant Details -->
+        <fieldset>
+            <legend><b>Applicant Details</b></legend>
+            <table cellpadding="4">
+                <tr>
+                    <td>
+                        <label>Name</label>
+                        <input type="text" maxlength="20" required>
+                    </td>
+                    <td>
+                        <label>Father's/Gaurdian Name</label>
+                        <input type="text" maxlength="20" required>
+                    </td>
+                    </td>
+                <tr>
+                    <td>
+                        <label>Date of Birth</label>
+                        <input type="date" required>
+                    </td>
+                    <td>
+                        <label>Gender</label>
+                        <input type="radio" name="Gender" required >Male
+                        <input type="radio" name="Gender" required>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age As on</label>
+                        <input type="text" required>
+                    </td>
+                    <td>
+                        <label>Aadhar Number</label>
+                        <input type="tel" maxlength="12" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Whatsapp No</label>
+                        <input type="tel" maxlength="10" required>
+                    </td>
+                    <td>
+                       <label>e-mail id</label> 
+                       <input type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Image</label>
+                        <input type="file" accept=".jpg,.jpeg,.png" required>
+                    </td>
+                </tr>
+            </table> 
+        </fieldset>
+<!-- Resindential details -->
+        <fieldset>
+            <legend><b>Residential Address Details</b></legend>
+            <table cellpadding="4">
+                <tr>
+                    <td>
+                        <label>Applicant's Address</label>
+                        <textarea maxlength="20" rows="4" required></textarea>
+                    </td>
+                    <td>
+                        <label>District</label>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mandal</label>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label>Village</label>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Pincode</label>
+                        <input type="tel" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Pass Type Details</b></legend>
+            <table cellpadding="4">
+                <tr>
+                    <td>
+                        <label>City</label>
+                        <select required>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Pass Type</label>
+                        <select required>
+                            <option selected disabled>---select---</option>
+                            <option>GREATER PASS</option>
+                            <option>ORDINARY PASS</option>
+                            <option>METRO EXPRESS PASS</option>
+                            <option>METRO DELUXE PASS</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset><br>
+            <legend><b>Mode Of Payment & Pass Collection</b></legend>
+            <table cellpadding="4">
+                <tr>
+                    <td>
+                        <label>Payment Mode</label>
+                        <select required>
+                            <option selected disabled>Select Payment Mode</option>
+                            <option>Online</option>
+                            <option>At counter</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td>
+                        <label>Pass Delivery Mode</label>
+                        <select required>
+                            <option selected disabled>Select Pass Delivery Mode</option>
+                            <option>Post</option>
+                            <option>At counter</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Center at which you want to Collect Pass</label>
+                        <select required>
+                            <option selected disabled>Select Payment Mode</option>
+                            <option>KPHB</option>
+                            <option>KUKATPALLY</option>
+                            <option>KOMPALLY</option>
+                            <option>AMEERPET</option>
+                            <option>MALKAJGIRI</option>
+                            <option>ECIL</option>
+                        </select>
+                    </td>
+                </tr>
+            </table> 
+        </fieldset><br><br>
+        <input type="submit">
+    </form>
+</center>
+</body>
+</html>
